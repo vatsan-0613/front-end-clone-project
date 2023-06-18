@@ -228,6 +228,43 @@ span{
     padding-top: 30px;
 }
 
+.container-5{
+    background-color: #7E4ECB;
+    display: flex;
+    padding: 0% 5% ;
+    border-radius: 20px;
+    overflow:hidden;
+    align-content: center;
+    justify-content: space-evenly;
+    color:#fff;
+}
+.image-5{
+    height: 100%;
+    width: 400px;
+    object-fit: contain;
+    padding-top: 5%;
+}
+.new-flex{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5%;
+}
+
+.new-font-head{
+    font-size: 2rem;
+    margin:0;
+    margin-bottom: 1rem;
+}
+.new-font-para{
+    margin-bottom: 1.7rem;
+}
+
+.new-font-button{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .container-6{
     display: flex;
     margin-top: 3rem;
@@ -349,7 +386,19 @@ span{
     .cont-4-res{
         flex-direction: column-reverse;
     }
-
+    .container-5{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-5{
+        width: 100%;
+    }
+    .new-flex{
+        padding-top: 2rem;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
 
     .large{
         padding-left: 30px;
