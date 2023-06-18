@@ -6,7 +6,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
+.vrule{
+    width: 3px;
+    height: 2rem;
+    background-color: #7E4ECB;
+    margin-left: 10px;
+}
 nav{
     display : flex;
     align-items: center;
@@ -297,6 +302,9 @@ span{
     }
     nav {
         flex-direction: column;
+    }
+    .vrule{
+        height: 0.1rem;
     }
     nav .comp{
         margin-left: 10px;
