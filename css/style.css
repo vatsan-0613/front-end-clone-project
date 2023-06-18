@@ -301,7 +301,7 @@ span{
         margin-top: 0;
     }
     nav ul div{
-        padding: 10px 0;
+        padding: 20px 0;
         width: 100%;
         text-align: center;
         background-color: #EFF7FE;
@@ -314,5 +314,67 @@ span{
         width: 100%;
         background-color: #7E4ECB;
         
+    }
+    .container-2{
+        flex-direction: column-reverse;
+    }
+    .jumbo-content{
+        margin-left: 10px;
+    }
+    .jumbo-content h1{
+        margin-top: 20px;
+    }
+    .icons{
+        flex-wrap: wrap;
+    }
+    .df{
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .container-3{
+        width:100%;
+        margin-left: 20px;
+        margin-bottom: 2rem;
+    }
+    .career-growth{
+        text-align: left;
+    }
+    .career-growth .big-text{
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .career-growth p {
+        padding-right: 50px;
+    }
+
+    .container-4{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .content-desc{
+        width: 100%;
+    }
+    .image2{
+        width:100%;
+    }
+    .cont-4-res{
+        flex-direction: column-reverse;
+    }
+    .purple-cont{
+        flex-direction: column;
+    }
+    .cont-desc{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .large{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .container-6{
+        flex-direction: column;
+    }
+    .img6-content{
+        margin-left: 10px;
     }
 }
