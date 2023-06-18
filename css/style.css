@@ -249,3 +249,37 @@ span{
 .large{
     padding:7px 15px 7px 15px;
 }
+
+.container-6{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.container-6 .image6 img{
+    width:90%;
+}
+
+.img6-content h3{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.tick-icon{
+    background-color: #EFF7FE;
+    border-radius: 50%;
+    padding: 8px;
+    color :#7E4ECB;
+    display: inline-block;
+    max-height: 16px;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.each{
+    display : flex;
+}
+
+.tick-text{
+    font-weight: bolder;
+}
